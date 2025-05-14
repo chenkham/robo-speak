@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  color: orangered;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+  background-color: #111;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+.glow {
+  font-size: 2em;
+  color: grey;
+  text-shadow: 0 0 5px green, 0 0 10px #00ccff, 0 0 20px #00ffff;
+}
+.developer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: transparent ;
+  padding: 10px;
+}
+.developer h2{
+  font-size:12px;
+  color: white;
+  margin: 0;
+}
+.developer a{
+  color: white;
+  text-decoration: underline;
+  vertical-align: center;
+}
+.insta-icon{
+  width: 20px;
+  height: 25px;
+  filter: invert(1);
+  margin-top:3px;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background-color: #222;
+  color: #00ccff;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00cc99;
+}
+
+#robot-text {
+  margin-top: 40px;
+  font-size: 1.2em;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
